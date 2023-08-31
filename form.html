@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act-clase11-form</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+
+    <p class="des">20% de descuentos en todos los productos!</p>
+
+    <header>
+        <img src="./img/logo.png" alt="logo">
+        <h1>Nombre Tienda</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Registrarme</a></li>
+            <li><a href="#">Ingresar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="titulos">
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <div class="nom">
+                        <label for="nombre">*Nombre</label>
+                        <input type="text" id="nombre" required>
+    
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha">
+                    </div>
+    
+                    <div class="esp">
+                        <label for="">*Especie</label>
+                        <select>
+                            <option>Especie</option>
+                        </select>
+    
+                        <label for="">Agrega Foto</label>
+                        <input type="file">
+                    </div>
+                </fieldset>
+    
+                <fieldset>
+                    <div class="text">
+                        <textarea placeholder="Descripción"></textarea>
+                    </div>
+    
+                    <div class="op">
+                        <div class="po">
+                            <label>Poderes</label>
+    
+                            <label for="volar" class="power"><input id="volar" type="checkbox" name="poderes" class="inline" value="volar" /> Volar</label>
+                            
+                            <label for="inteligencia" class="power"><input id="inteligencia" type="checkbox" name="poderes" value="inteligencia" class="inline" /> SuperInteligencia</label>
+                            
+                            <label for="rayo laser" class="power"><input id="rayo laser" type="checkbox" name="poderes" value="laser" class="inline" /> Vista de rayo laser</label>
+                           
+                            <label for="billetera" class="power"><input id="billetera" type="checkbox" name="poderes" value="billetera" class="inline" /> Billetera gorda</label>
+                            
+                        </div>
+    
+                        <div class="tip">
+                            <label>Tipo de personaje</label>
+    
+                            <label for="heroe" class="power"><input id="heroe" type="radio" name="personaje" value="heroe" class="inline" /> Héroe / Heroína</label>
+                            
+                            <label for="villano" class="power"><input id="villano" type="radio" name="personaje" value="villano" class="inline" /> Villano / Villana</label>
+                            
+                        </div>
+                    </div>
+                </fieldset>
+    
+                <div class="boton">
+                    <input type="button" value="AÑADIR">
+                </div>
+            </form>
+            
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>  
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.des{
+    background-color: #1cd1b0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00669f;
+    gap: 1em;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+nav{
+    background-color: #001d2d;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    padding: 10px 20px 10px 0;
+}
+
+li a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.container{
+    width: 320px;
+    height: 600px;
+}
+
+.portada{
+    width: 320px;
+    height: 200px;
+    display: flex;
+}
+
+.portada .bxs-heart{
+    position: relative;
+    z-index: 2;
+    top: 40px;
+    left: 20px;
+    color: red;
+    font-size: 35px;
+}
+
+.portada img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.perfil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    bottom: 30px;
+}
+
+.perfil img{
+    border-radius: 5em;
+}
+
+.texto{
+    width: 100%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #f3f3f3;
+}
+
+.texto h3{ 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.texto p{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.enlace{
+    text-align: center;
+}
+
+.enlace a{
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00669f;
+    color: white;
+}
+
+.plus{
+    width: 200px;
+    height: 100%;
+    background-color: ;
+    display: flex;
+    position: fixed;
+    left: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus .bxs-plus-circle{
+    font-size: 80px;
+    color: #00669f;
+}
+
+.bxs-plus-circle:hover{
+    color: #001d2d;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #00669f;
+    padding: 20px 0;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
